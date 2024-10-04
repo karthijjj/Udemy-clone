@@ -75,6 +75,13 @@ gap: 10px;
     background-color: #A435F0;
     border-radius: 30px;
     padding: 10px;
+    border: solid  #A435F0 ;
+}
+.cat p:hover{
+    background-color: transparent;
+    color: #A435F0;
+    border: solid  #A435F0 ;
+
 }
 .sale__image__offer{
     width:fit-content;
@@ -84,8 +91,22 @@ gap: 10px;
     position: absolute;
     top: 100px;
     left: 100px;
-}
+    animation-name: zoom;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
 
+}
+@keyframes zoom{
+    0%{
+        opacity: 0px;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
 .sale__image img{
     width: 100%;
     
