@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Gabarito',sans-serif;
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+.navbar__s1__tittle{
+    color: #A435F0;
+}
+.navbar__s2{
+    padding: 10px;
+    border: solid black;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+    
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.my-learning{
+
+    position: relative;
+    cursor: pointer;
+    
+}
+.my-learning:hover .my-learning__pop{
+    display: block;
+
+}
+.my-learning__pop{
+    position: absolute;
+    padding: 10px;
+    border: 2px solid black;
+    width: 150px;
+    right: 10px;
+    top: 30px;
+    display: none;
+}
+.cat{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 2px;
+}
+.cat p{
+    color: white;
+    background-color: #A435F0;
+    border-radius: 30px;
+    padding: 10px;
+}
+.sale__image__offer{
+    width:fit-content;
+    padding: 20px;
+    height: fit-content;
+    border:  2px  solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.sale__image img{
+    width: 100%;
+    
+}
+.sale__image{
+    position: relative;
+}
+
+.Recommender{
+    padding: 10px;
+}
+.Recommender__container{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+   
+    
+
+}
+.Recommender__container__class{
+    width: 320px;
+}
+.Recommender__container__class img{
+width: 100%;
+height: 50%;
+}
+.topics{
+    padding: 10px;
+
+}
+.topics__container{
+    display: flex;
+   gap: 10px;
+   margin: 10px;
+   flex-wrap: wrap;
+}
+.topics__container p{
+    flex-grow: 1;
+    border: 1px solid black;
+    padding: 3px;
+    flex-basis: 25%;
+    
+}
+.popular{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer{
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+.footer__one{
+    display: flex;
+    
+}
+.footer__one__s1 p{
+    margin: 15px;
+    padding: 5px;
+}
+.footer__one__s2 p{
+    margin: 15px;
+    padding: 5px;
+}
+
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
