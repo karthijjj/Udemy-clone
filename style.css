@@ -44,6 +44,10 @@ body{
 display: flex;
 align-items: center;
 gap: 10px;
+
+}
+.navbar__s4{
+    display: none;
 }
 .my-learning{
 
@@ -129,7 +133,9 @@ gap: 10px;
 
 }
 .Recommender__container__class{
-    width: 320px;
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
 }
 .Recommender__container__class img{
 width: 100%;
@@ -184,4 +190,30 @@ height: 50%;
     display: flex;
     justify-content: space-between;
     margin: 10px;
+}
+@media screen and (max-width:800px){
+
+    body{
+        font-size: 10px;
+    }
+    
+}
+@media screen and (max-width:600px){
+
+    .Recommender__container__class{
+        flex-basis: 40%;
+    }
+    .cat{
+        display: none;
+    }
+    .navbar__s3{
+        display: none;
+    }
+    .navbar__s4{
+        display: block;
+    }
+    .sale__image__offer{
+        display: none;
+    }
+    
 }
